@@ -1,0 +1,59 @@
+[
+  {
+    "Name": "Rice",
+    "ID": 1,
+    "ItemInfo": {
+      "Description": "Kohinoor Basmati",
+      "Category": "Cereal grain"
+    },
+    "Sales": {
+      "Price": 12,
+      "Discount": 25
+    },
+    "Internal": {
+      "Aisle": 2,
+      "TimesSold": {
+        "Today": 0,
+        "Yesterday": 0
+      }
+    }
+  },
+  {
+    "Name": "Sugar",
+    "ID": 2,
+    "ItemInfo": {
+      "Description": "Sugar is the generic name for sweet-tasting",
+      "Category": "Food"
+    },
+    "Sales": {
+      "Price": 70,
+      "Discount": 15
+    },
+    "Internal": {
+      "Aisle": 9,
+      "TimesSold": {
+        "Today": 0,
+        "Yesterday": 0
+      }
+    }
+  },
+  {
+    "Name": "Wheat",
+    "ID": 3,
+    "ItemInfo": {
+      "Description": "Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food.",
+      "Category": "Grain"
+    },
+    "Sales": {
+      "Price": 0.5,
+      "Discount": 0.2
+    },
+    "Internal": {
+      "Aisle": 8,
+      "TimesSold": {
+        "Today": 0,
+        "Yesterday": 0
+      }
+    }
+  }
+]

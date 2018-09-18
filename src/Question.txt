@@ -1,0 +1,84 @@
+*******************************************************
+
+
+
+TEST: 
+
+
+
+You have all weekend to complete this as well as the holiday on Monday. I need this returned by midnight on Monday night!
+
+ 
+
+Database - Grocery store
+
+Instructions:
+
+In Python or Java, please complete the following coding exercise. It is up to you on how complex you’d like to get on implementation. 
+A tar or zip of your files/results will be sent back to our team and reviewed. 
+
+This exercise will take place at a Grocery Store. You are the new head of tech at Apple's Grocery Store. You have thus inherited a Database that is unfortunately just a List. This list is just an extremely long List of Grocery Items you sell, which are dictionaries.
+
+Here is an example List:
+
+[
+    "GroceryItem": {
+        "Name": <String>,
+        "ID": <Long>,
+        "ItemInfo": {
+            "Description": <String>,
+            "Category": <String>
+        },
+        "Sales": {
+            "Price": <Float>,
+            "Discount": <Float>
+        },
+        "Internal" {
+            "Aisle": <Int>,
+            "TimesSold": {
+                "Today": <Int>,
+                "Yesterday": <Int>,
+            }
+        }
+    },
+    "GroceryItem": {...},
+    "GroceryItem": {...},
+]
+
+
+
+With this information we want you to complete some tasks:
+
+1) Create a cashier checkout algorithm that takes in a list of tuples and is able to calculate the total cost after discount. Each tuple will hold ID and Quantity:
+Ex [(145728, 2), (332457, 1), (589927, 4), (1235938, 1)]
+
+2) To Increase sales we want more data on what has been working well. We want the top 2 most sold fruits from the last two days that had a discount.
+
+3) The store has decided to move all grocery items under a dollar to a new aisle called Super Savings, which is in Aisle 15. Therefore move all items that are under 1.00 without the sale discount to Aisle 15. 
+
+4) Apple had updated the database to be a json file instead of a list, so your input this time will be a .json. Please adjust your code accordingly and ask if you have questions on syntax
+
+
+FAQs:
+
+How many items are in the list, can it fit in memory?
+
+1 million + 
+
+Can I be provided the database schema?
+
+Please create your own schema based on the list fields. 
+
+How do I read data from the database?
+
+The list is a file, your choice on how you store and query.
+
+Am I allowed to use open source libraries?
+
+Apache or GPL
+
+Is the value in "Discount" the amount of the discount or the price after the discount has been applied?
+
+Amount of discount. 
+
+*************************
